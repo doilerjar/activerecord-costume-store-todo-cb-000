@@ -12,20 +12,32 @@
 
 ActiveRecord::Schema.define(version: 3) do
 
+<<<<<<< HEAD
   create_table "costume_stores", force: :cascade do |t|
+=======
+  create_table "CostumeStores", force: :cascade do |t|
+>>>>>>> fe19a8fdd9e57ccc038e7688d28c4254704e78f0
     t.string "name"
     t.string "location"
     t.integer "costume_inventory"
     t.integer "num_of_employees"
     t.boolean "still_in_business"
     t.datetime "opening_time"
+<<<<<<< HEAD
     t.datetime "closing_time"
+=======
+    t.datetime "end_time"
+>>>>>>> fe19a8fdd9e57ccc038e7688d28c4254704e78f0
   end
 
   create_table "costumes", force: :cascade do |t|
     t.string "name"
     t.float "price"
+<<<<<<< HEAD
     t.string "image_url"
+=======
+    t.string "url"
+>>>>>>> fe19a8fdd9e57ccc038e7688d28c4254704e78f0
     t.string "size"
     t.datetime "created_at"
     t.datetime "updated_at"
